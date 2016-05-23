@@ -1,0 +1,36 @@
+{
+  "name": "eslint-config-oneteam",
+  "version": "1.0.0-rc.1",
+  "description": "Oneteam Inc. ESLint extensible shared config.",
+  "main": "index.js",
+  "files": [
+    "rules",
+    "base.js",
+    "index.js",
+    "react.js",
+    "standard.js"
+  ],
+  "scripts": {
+    "lint": "eslint . --ignore-pattern node_modules/**",
+    "prepublish": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oneteam-dev/eslint-config-oneteam.git"
+  },
+  "author": "Oneteam Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oneteam-dev/eslint-config-oneteam/issues"
+  },
+  "homepage": "https://github.com/oneteam-dev/eslint-config-oneteam#readme",
+  "peerDependencies": {
+    "eslint": ">=2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.0.4",
+    "eslint": "^2.10.2",
+    "eslint-plugin-babel": "^3.2.0",
+    "eslint-plugin-react": "^5.1.1"
+  }
+}
